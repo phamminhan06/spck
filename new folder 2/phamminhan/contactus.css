@@ -1,11 +1,11 @@
 body{
-    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/007/264/993/small_2x/earth-day-ecology-logo-template-free-vector.jpg);
+    background-image: url(https://media.istockphoto.com/id/1385614985/vector/earth-day-planet-and-ecology-symbol.jpg?s=170667a&w=0&k=20&c=k3gxbdMnmN7Pmfy_Lw8fxxhcgnEbpIH-kD-DTFnKOb4=);
     font-family: 'Roboto', sans-serif;
 }
 
 
-input[type=text], input[type=password] {
-    width: 98%;
+input[type=text], select, textarea {
+    width: 96%;
     padding: 15px;
     margin: 5px 0 22px 0;
     display: inline-block;
@@ -13,7 +13,7 @@ input[type=text], input[type=password] {
     background: #f1f1f1;
   }
   
-  input[type=text]:focus, input[type=password]:focus {
+  input[type=text]:focus {
     background-color: #ddd;
     outline: none;
   }
