@@ -7,22 +7,38 @@
 // })
 
 function register() {
-    let email = document.getElementById("email")
-    console.log(email.value)
+    let gmail = document.getElementById("gmail")
+    console.log(gmail.value)
 
-    let pw = document.getElementById("pw")
-    console.log(pw.value)
+    let pword = document.getElementById("pword")
+    console.log(pword.value)
 
     let pwrepeat = document.getElementById("pwrepeat")
     console.log(pwrepeat.value)
     
-    const user = {
-        email: email.value,
-        pw: pw.value,
+    const register = {
+        gmail: gmail.value,
+        pword: pword.value,
         pwrepeat: pwrepeat.value
     }
     
-    localStorage.setItem("user", JSON.stringify(user))
-     location.replace('index.html')
+    localStorage.setItem("user", JSON.stringify(register))
+    location.replace('index.html')
 
 }
+
+function user() {
+    let gmail = document.getElementById("gmail")
+    console.log(gmail.value)
+
+    let pw = document.getElementById("pword")
+    console.log(pw.value)
+    
+    const user = JSON.parse(localStorage.getItem("user"))
+    if(user.gmail === gmail.value && user.pword === pword.value)
+        location.replace('index.html')
+    else
+        alert("Sai tài khoản hoặc mật khẩu")
+
+}
+

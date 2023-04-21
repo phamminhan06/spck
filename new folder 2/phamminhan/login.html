@@ -12,16 +12,16 @@
         <h1>Đăng nhập</h1>
         <hr>
         <label for="email"><b>Email</b></label>
-        <input type="text" placeholder="Nhập Email" name="email" required>
+        <input type="text" placeholder="Nhập Email" name="email" id="gmail" required>
         
         <label for="psw"><b>Mật khẩu</b></label>
-        <input type="password" placeholder="Nhập Mật khẩu" name="psw" required>
+        <input type="password" placeholder="Nhập Mật khẩu" name="psw" id="pword" required>
 
         <div class="clearfix">
             <a href="index.html">
                 <button type="button" class="cancelbtn">Hủy</button>
             </a>
-            <button class="submitbtn">Đăng nhập</button>
+            <button class="submitbtn" onclick="user()">Đăng nhập</button>
         </div>
         <p>Chưa có tài khoản?<a href="signup.html" style="color:dodgerblue">Đăng ký</a></p>
     </div>   

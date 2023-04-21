@@ -23,7 +23,7 @@ body {
     position: relative;
 }
 
-.container {
+.containers {
     color: white;
     background-image: url(none);
     width: 400px;
@@ -126,13 +126,4 @@ body {
 
 .additional-section .item .label {
     font-weight: bold;
-}
-
-.returnbtn {
-    background-color: transparent;
-    position: absolute;
-    padding: 16px 16px;
-    cursor: pointer;
-    top: 0;
-    right: 0;
 }
